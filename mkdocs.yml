@@ -1,0 +1,18 @@
+site_name: (Demo) Documentation
+theme:
+  name: material
+
+nav:
+  - Welcome: index.md
+  - About:
+      - What is ELN?: eln.md
+      - Meet our team: team.md
+      - License: license.md
+  - How to start: how-to-start.md
+  - Adding chemical equation: chemicaleditor.md
+  - Scheme: scheme.md # steps of experiments
+  - Analysis:
+      - IR: ir.md
+      - NMR: nmr.md
+      - MS: ms.md
+  - Report: report.md
