@@ -4,7 +4,7 @@ The following instructions target users who are unfamiliar with _OpenChemLib_ ch
 > For those who just need a Copy & Paste: <br>
 > <img alt="5th Key" style="width:1.5em; vertical-align:top;" src="../assets/img_chemicaleditor_tr_5.png"> then <img alt="2nd Key" style="width:1.5em; vertical-align:top;" src="../assets/img_chemicaleditor_tr_2.png"> (left: reactant; right: product): across **different** entries.<br>
 > <img alt="6th Key" style="width:1.5em; vertical-align:top;" src="../assets/img_chemicaleditor_tr_6.png">: **within the same** editor<br>
-> Or use the Lasso Pointer Tool <img alt="Left 5th Key" style="width:1.5em; vertical-align:top;" src="../assets/img_chemicaleditor_left_5.png"> to select the target molecule, press and hold 'shift' to create a copy <br>
+> Or use the Lasso Pointer Tool <img alt="Left 5th Key" style="width:1.5em; vertical-align:top;" src="../assets/img_chemicaleditor_left_5.png"> to select the target molecule, hold 'Shift' and drag the molecule to create a copy <br>
 
 ## Video 1 (Sandmeyer Reaction): Simple molecules
 <video id="sandmeyer" controls muted width="70%" poster="../assets/videos/thumbnail_chemicaleditor_sandmeyer.png">
@@ -42,4 +42,4 @@ The following instructions target users who are unfamiliar with _OpenChemLib_ ch
 ## Tips and Tricks
 
 ### Type the chemical symbol directly to change the atom.
-[Jump to the clip](#) <a href="javascript:void(0)" onclick="seekVideo(68)">▶ 01:08</a>
+[Jump to ](#) <a href="javascript:void(0)" onclick="seekVideo(68)">▶ 01:08</a>
