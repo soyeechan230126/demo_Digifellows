@@ -16,3 +16,6 @@ nav:
       - NMR: nmr.md
       - MS: ms.md
   - Report: report.md
+
+extra_javascript:
+  - javascripts/extra.js

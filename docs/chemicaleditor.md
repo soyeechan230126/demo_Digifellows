@@ -4,14 +4,14 @@ The following instructions target users who are unfamiliar with _OpenChemLib_ ch
 > For those who just need a Copy & Paste: <br>
 > <img alt="5th Key" style="width:1.5em; vertical-align:top;" src="../assets/img_chemicaleditor_tr_5.png"> then <img alt="2nd Key" style="width:1.5em; vertical-align:top;" src="../assets/img_chemicaleditor_tr_2.png"> (left: reactant; right: product): across **different** entries.<br>
 > <img alt="6th Key" style="width:1.5em; vertical-align:top;" src="../assets/img_chemicaleditor_tr_6.png">: **within the same** editor<br>
-> Or use the Select Tool <img alt="Left 5th Key" style="width:1.5em; vertical-align:top;" src="../assets/img_chemicaleditor_left_5.png"> to select the target molecule, press and hold 'shift' to create a copy <br>
+> Or use the Lasso Pointer Tool <img alt="Left 5th Key" style="width:1.5em; vertical-align:top;" src="../assets/img_chemicaleditor_left_5.png"> to select the target molecule, press and hold 'shift' to create a copy <br>
 
 ## Video 1 (Sandmeyer Reaction): Simple molecules
-<video controls muted width="70%" poster="../assets/videos/thumbnail_chemicaleditor_sandmeyer.png">
-  <source src="../assets/videos/chemicaleditor.mp4" type="video/mp4">
+<video id="sandmeyer" controls muted width="70%" poster="../assets/videos/thumbnail_chemicaleditor_sandmeyer.png">
+  <source src="/assets/videos/chemicaleditor.mp4" type="video/mp4">
 </video>
 
-#### Explanation of tools
+## Explanation of tools
 [<img alt="Toolbar of the top right corner of the module" src="../assets/img_chemicaleditor_topright.png">]: #
 
 |Button|Function|Explanation|
@@ -27,7 +27,7 @@ The following instructions target users who are unfamiliar with _OpenChemLib_ ch
 |<img alt="Left 2nd Key" style="width:2em; vertical-align:top;" src="../assets/img_chemicaleditor_left_2.png">|*Undo*|Undo last action|
 |<img alt="Left 3rd Key" style="width:2em; vertical-align:top;" src="../assets/img_chemicaleditor_left_3.png">|*Cleanup button*|Clean up the equation or only the selected molecule|
 |<img alt="Left 4th Key" style="width:2em; vertical-align:top;" src="../assets/img_chemicaleditor_left_4.png">|*Zoom and Rotate Tool*||
-|<img alt="Left 5th Key" style="width:2em; vertical-align:top;" src="../assets/img_chemicaleditor_left_5.png">|*Select Tool / Lasso Pointer Tool*|Use by:<br> 1. Dragging the cursor around atoms of choice; <br> 2. Double clicking any atom or bond in a molecule; <br> 3. pressing and holding 'alt' for retangle selection; <br> <br> Single selection within one molecule is also allowed. Selected atoms or fragment can be dragged and moved across the editor. Reactants are labeled with alphabets and placed on the left of the reaction arrow; products are labeled with 'P1', 'P2' etc. and placed on the right side. <br> <br> To unselect click any empty area in the editor <br> <br> To create a copy select the target molecule, then drag the selected fragment while pressing and holding 'Shift'. |
+|<img alt="Left 5th Key" style="width:2em; vertical-align:top;" src="../assets/img_chemicaleditor_left_5.png">|*Lasso Pointer Tool*|Use by:<br> 1. Dragging the cursor around atoms of choice; <br> 2. Double clicking any atom or bond in a molecule; <br> 3. pressing and holding 'alt' for retangle selection; <br> <br> Single selection within one molecule is also allowed. Selected atoms or fragment can be dragged and moved across the editor. Reactants are labeled with alphabets and placed on the left of the reaction arrow; products are labeled with 'P1', 'P2' etc. and placed on the right side. <br> <br> To unselect click any empty area in the editor <br> <br> To create a copy select the target molecule, then drag the selected fragment while pressing and holding 'Shift'. |
 |<img alt="Left 6th Key" style="width:2em; vertical-align:top;" src="../assets/img_chemicaleditor_left_6.png">|*Mapping Tool*||
 |<img alt="Left 7th Key" style="width:2em; vertical-align:top;" src="../assets/img_chemicaleditor_left_7.png">|*Unknown Configuration Tool*|Label unknown stereo configuration at a chiral centre|
 |<img alt="Left 8th Key" style="width:2em; vertical-align:top;" src="../assets/img_chemicaleditor_left_8.png"> <br> <img alt="Left 8th Key green &" style="width:2em; vertical-align:top;" src="../assets/img_chemicaleditor_left_8a.png"> <br> <img alt="Left 8th Key blue or" style="width:2em; vertical-align:top;" src="../assets/img_chemicaleditor_left_8b.png">|*ESR (enhanced stereo recognition) Tools*|Click multiple times to select different modes. <br> <img alt="Left 8th Key red abd" style="width:1.5em; vertical-align:top;" src="../assets/img_chemicaleditor_left_8.png"> Absolute configuration or belongs to a group of stereo centers that have the drawn, but relative configuration. <br> <img alt="Left 8th Key green &" style="width:1.5em; vertical-align:top;" src="../assets/img_chemicaleditor_left_8a.png"> Both the drawn and inverse configurations of the relative stereo centres are present. <br> <img alt="Left 8th Key blue or" style="width:1.5em; vertical-align:top;" src="../assets/img_chemicaleditor_left_8b.png"> Either the drawn or the inverse configuration is present. <br> The indicator group numbers show which stereo centers belong to the same group.|
@@ -38,3 +38,8 @@ The following instructions target users who are unfamiliar with _OpenChemLib_ ch
 |<img alt="Left 21st to 22nd Key" style="width:4em; vertical-align:top;" src="../assets/img_chemicaleditor_left_21-22.png">|*Charge Tool*|Amend the charge of the atom by 1. Alternatively press '-' or '+' while pointing at the target atom.|
 |<img alt="Left 23rd to 33rd Key" style="width:4em; vertical-align:top;" src="../assets/img_chemicaleditor_left_elements.png">|*Atom Tool*|Select the tool and click anywhere in the editor to add the atom. Alternatively type the chemical symbol on keyboard (case insensitive) while pointing at the target atom.|
 |<img alt="Left 34th Key" style="width:2em; vertical-align:top;" src="../assets/img_chemicaleditor_left_34.png">|*Atom Detail Tool*|Upon selection of the tool a dialogue window would be opened. Atom label may be specified with different conditions (e.g. radical state). While the tool is still selected the customized conditions can be further applied by clicking the target atoms directly.|
+
+## Tips and Tricks
+
+### Type the chemical symbol directly to change the atom.
+[Jump to the clip](#) <a href="javascript:void(0)" onclick="seekVideo(68)">▶ 01:08</a>

@@ -18,7 +18,7 @@ On the page of the ELN entry enter a title of your choice for the reaction and c
 ### Method 1 (recommended): First data entry then chemical equation
 > It saves your time from drawing chemical structures.
 
-<video autoplay controls loop muted width="60%">
+<video controls loop muted width="60%">
 	<source src="../assets/videos/how-to-start-3-4.mp4" type="video/mp4">
 </video>
 
