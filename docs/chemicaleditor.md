@@ -8,7 +8,7 @@ The following instructions target users who are unfamiliar with _OpenChemLib_ ch
 
 ## Video 1 (Sandmeyer Reaction): Simple molecules
 <video id="sandmeyer" controls muted width="70%" poster="../assets/videos/thumbnail_chemicaleditor_sandmeyer.png">
-  <source src="/assets/videos/chemicaleditor.mp4" type="video/mp4">
+  <source src="../assets/videos/chemicaleditor.mp4" type="video/mp4">
 </video>
 
 ## Explanation of tools
