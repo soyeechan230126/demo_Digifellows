@@ -49,22 +49,34 @@ On the page of the ELN entry enter a title of your choice for the reaction and c
 	<source src="../assets/videos/how-to-start-5.mp4" type="video/mp4">
 </video>
 
-  1. Enter the required amount of `mmoles` or `ml` or `g` of the reactants according to your script (*Versuchsanleitung*) and press 'Enter' to confirm. Cells in `g`, `ml`, `mmoles` and `equiv` would be automatically updated. If not, usually it is due to missing information of density or the material is in solid under standard condition. Sometimes manual input might be required. Left click for the next cell for next entry.
+1. If necessary, amend the purity and density.
+> Possible units for purity: `%`, molar `M` (mmoles/mL), millimolar `mM` and loading `L` (mmoles/g)
+2. Enter the required amount of `mmoles` or `ml` or `g` of the reactants according to your script (*Versuchsanleitung*) and press 'Enter' to confirm. Cells in `g`, `ml`, `mmoles` and `equiv` would be automatically updated. If not, usually it is due to missing information of density or the material is in solid under standard condition. Sometimes manual input might be required. Left click for the next cell for next entry.
 > Instead of left clicking the next cell, press 'Enter', then 'Tab' or 'Shift'+'Tab' to activate next cell for entry.
-
-2. Make sure your have the “Linked” checkbox on the right side checked. 
+3. Make sure your have the “Linked” checkbox on the right side checked. 
 > The 'Theoretical yield' of produtcs on the right is calculated based on the starting materials with 1 equiv.
-3. Fill in the desired yielding of your product (e.g. in `g` 10 for liquid or 5 for solid compounds). The amount of reactants required would then be automatically updated.
+4. Fill in the desired yielding of your product (e.g. in `g` 10 for liquid or 5 for solid compounds). The amount of reactants required would then be automatically updated.
 > To delete and redo entries in `g`, `ml` and `mmoles` press 'Delete' inside the cell in `equiv`.
+5. Click <img alt="Save Data" style="height: 1.5em; width: auto; vertical-align: top" src="../assets/img_savedata.png"> to save.
 
 ## 5. GHS Pictogramms, H- and P-statements 
 
-1. Visit [GESTIS](https://gestis.dguv.de/search) (in German) or [CAS Sci Finder](https://scifinder-n.cas.org/) to look up information of hazards of the chemicals. 
-2. Inside the `Hazard Pictograms` column type the GHS number respectively (e.g. '6' for GHS 6 pictogram)
+<video controls muted width="60%">
+	<source src="../assets/videos/how-to-start-8.mp4" type="video/mp4">
+</video>
 
-> Feature in development: Automatic generation of GHS pictograms with <span class="hazard"><svg style="margin: 0; vertical-align: middle;" width="30" height="30" viewBox="0 0 680 600" xmlns="http://www.w3.org/2000/svg"><polygon points="340,60 560,480 120,480" fill="none" stroke="#222" stroke-width="20" stroke-linejoin="round"/><rect x="327" y="200" width="26" height="150" rx="6" fill="#222"/><circle cx="340" cy="410" r="18" fill="#222"/></svg></span> and browsing of H- and P-Statements with <span class="icon">i</span> 
+1. Go to 'Prefs' at the top of the page.
+2. Check the box in 'Lookup for safety information' and 'Save Preference'. Return to 'Reaction' at the top of the page.
+3. Click through the cells in `Hazard Pictograms` to activate the lookup function. Symbols of i and <span class="hazard"><svg alt="hazard symbol" style="margin: 0; vertical-align: middle;" width="30" height="30" viewBox="0 0 680 600" xmlns="http://www.w3.org/2000/svg"><polygon points="340,60 560,480 120,480" fill="none" stroke="#222" stroke-width="20" stroke-linejoin="round"/><rect x="327" y="200" width="26" height="150" rx="6" fill="#222"/><circle cx="340" cy="410" r="18" fill="#222"/></svg></span> appear automatically. 
+4. Click <span class="hazard"><svg alt="hazard symbol" style="margin: 0; vertical-align: middle;" width="30" height="30" viewBox="0 0 680 600" xmlns="http://www.w3.org/2000/svg"><polygon points="340,60 560,480 120,480" fill="none" stroke="#222" stroke-width="20" stroke-linejoin="round"/><rect x="327" y="200" width="26" height="150" rx="6" fill="#222"/><circle cx="340" cy="410" r="18" fill="#222"/></svg></span> in each row to add the corresponding GHS labels. Manual editing (e.g. '6' for GHS 6 pictogram) is also possible.
+5. By clicking the information symbol i you may browse through the hazard and precaution statements (*H- & P-Sätze*) retrieved from PubChem. In the 'Experimental' tab you can find useful information of the chemical such as the boiling and meltling point.
 
 ## 6. Change status of the entry
+<video loop autoplay muted width="60%">
+	<source src="../assets/videos/how-to-start-9.mp4" type="video/mp4">
+</video>
+
+Change the status of your ELN entry by clicking one of the buttons or customize your own label. Click <img alt="Save Data" style="height: 1.5em; width: auto; vertical-align: top" src="../assets/img_savedata.png"> afterwards. The history of changes cannot be modified.
 
 > Now your ELN is ready to use!
 
