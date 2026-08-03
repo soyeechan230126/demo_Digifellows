@@ -899,14 +899,15 @@
 </video>
 
 <ol>
-<li>The <code>code</code> column itself has search function embedded. <ol>
-<li>Search with (the first few characters of) the trivial name (e.g. with 'anthran'or in full 'anthranilic acid')</li>
-<li>Search with the chemical formula (e.g. with 'KI', 'HCl').</li>
-<li>Look up the CAS number either on <a href="https://gestis.dguv.de/search">GESTIS</a> (in German) or on <a href="https://scifinder-n.cas.org/">CAS Sci Finder</a> (in English, login with <em>name@uni-jena.de</em> required) and paste it in the cell. Then hit 'Enter' on keyboard.</li>
+<li>The <code>code</code> column itself has search function embedded. You may search with:<ol>
+<li>(the first few characters of) the trivial name (e.g. with 'anthran' or in full 'anthranilic acid')</li>
+<li>the chemical formula (e.g. with 'KI', 'HCl').</li>
+<li>the CAS number (look up either on <a href="https://gestis.dguv.de/search">GESTIS</a> (in German) or on <a href="https://scifinder-n.cas.org/">CAS Sci Finder</a> (in English, login with <em>name@uni-jena.de</em> required))</li>
+<li>the product code of a product you synthesized before</li>
 </ol>
 </li>
-<li>In the pop-up window click the chemical of choice once to select. Usually the fields in <code>Name</code>, <code>mf</code> (molecular formula), <code>mw</code> (molecular weight) and <code>density</code> are automatically filled up. Nevertheless for some molecules, of which relatively little literature are currently available, manual input might be required.</li>
-<li>Click the <span class="icon" alt="Hexagon icon on the right"><svg style="margin: 0; background-color: b8b8b8; width: 1.5em; height: 1.5em; vertical-align: top;" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg"><polygon points="150,10 280,85 280,215 150,290 20,215 20,85" fill="none" stroke="#000" stroke-width="10" stroke-linejoin="round"/></svg></span> to add the molecules into your chemical editor. Use the Lasso Pointer Tool <img alt="Left 5th Key" style="width:1.5em; vertical-align:top;" src="../assets/img_chemicaleditor_left_5.png"> in the toolbar (lasso as shown in video or hold 'Alt' and drag for retangular selection or double click a bond or an atom of the molecule) to rearrange the components in the chemical equation. Products stand on the right of the reaction arrow with a e.g. 'P1' watermark.</li>
+<li>Hit 'Enter' to search. In the pop-up window click the chemical of choice once to select. Usually the fields in <code>Name</code>, <code>mf</code> (molecular formula), <code>mw</code> (molecular weight) and <code>density</code> are automatically filled up. Nevertheless for some molecules, of which relatively little literature are currently available, manual input might be required.</li>
+<li>Click the <span class="icon" alt="Hexagon icon on the right"><svg style="margin: 0; background-color: b8b8b8; width: 1.5em; height: 1.5em; vertical-align: top;" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg"><polygon points="150,10 280,85 280,215 150,290 20,215 20,85" fill="none" stroke="#000" stroke-width="10" stroke-linejoin="round"/></svg></span> to add the molecules into your chemical editor. Use the Lasso Pointer Tool <img alt="Left 5th Key" style="width:1.5em; vertical-align:top;" src="../assets/img_chemicaleditor_left_5.png"> in the toolbar (lasso as shown in video or hold 'Alt' and drag for retangular selection or double click a bond or an atom of the molecule) to rearrange the components in the chemical equation. Products stand on the right of the reaction arrow and are labeled with a e.g. 'P1' watermark.</li>
 <li>Use the Cleanup Button <img alt="Clean Up Tool" style="height: 1.5em; width: auto; vertical-align: top" src="../assets/img_cleanup.png"> to clean up the equation. </li>
 </ol>
 <h3 id="method-2-first-chemical-equation-then-data-entry">Method 2: First chemical equation then data entry</h3>
@@ -925,28 +926,47 @@ Or use the Lasso Pointer Tool <img alt="Left 5th Key" style="width:1.5em; vertic
 <blockquote>
 <p><em>The following instructions are only based on OC2-Praktikum.</em></p>
 </blockquote>
+<video controls muted width="60%">
+    <source src="../assets/videos/how-to-start-5.mp4" type="video/mp4">
+</video>
+
 <ol>
-<li>
-<p>In the column <code>mmoles</code> put in the number of moles of the reagents and starting materials according to your script (<em>Versuchsanleitung</em>). Cells in <code>equiv</code> as well as <code>g</code> and <code>ml</code> should already be automatically updated. </p>
-<blockquote>
-<p>If not, check if the chemical is in solid state under standard conditions. Usually it is due to missing information of density. Manual input might be required.</p>
+<li>If necessary, amend the purity and density.<blockquote>
+<p>Possible units for purity: <code>%</code>, molar <code>M</code> (mmoles/mL), millimolar <code>mM</code> and loading <code>L</code> (mmoles/g)</p>
 </blockquote>
 </li>
-<li>
-<p>Make sure your have the “Linked” checkbox on the right side checked. </p>
+<li>Enter the required amount of <code>mmoles</code> or <code>ml</code> or <code>g</code> of the reactants according to your script (<em>Versuchsanleitung</em>) and press 'Enter' to confirm. Cells in <code>g</code>, <code>ml</code>, <code>mmoles</code> and <code>equiv</code> would be automatically updated. If not, usually it is due to missing information of density or the material is in solid under standard condition. Sometimes manual input might be required. Left click for the next cell for next entry.<blockquote>
+<p>Instead of left clicking the next cell, press 'Enter', then 'Tab' or 'Shift'+'Tab' to activate next cell for entry.</p>
+</blockquote>
 </li>
-<li>Fill in the desired yielding for your product (e.g. in <code>g</code> 10 for liquid or 5 for solid compounds). The amount required according to the equation in the chemical editor would then be automatically updated.</li>
+<li>Make sure your have the “Linked” checkbox on the right side checked. <blockquote>
+<p>The 'Theoretical yield' of produtcs on the right is calculated based on the starting materials with 1 equiv.</p>
+</blockquote>
+</li>
+<li>Fill in the desired yielding of your product (e.g. in <code>g</code> 10 for liquid or 5 for solid compounds). The amount of reactants required would then be automatically updated.<blockquote>
+<p>To delete and redo entries in <code>g</code>, <code>ml</code> and <code>mmoles</code> press 'Delete' inside the cell in <code>equiv</code>.</p>
+</blockquote>
+</li>
+<li>Click <img alt="Save Data" style="height: 1.5em; width: auto; vertical-align: top" src="../assets/img_savedata.png"> to save.</li>
 </ol>
 <h2 id="5-ghs-pictogramms-h-and-p-statements">5. GHS Pictogramms, H- and P-statements</h2>
-<p><em><font color="red">this feature in scipeaks demo ver is different, do I need to add my SciFinder token for the full version?</font></em></p>
+<video controls muted width="60%">
+    <source src="../assets/videos/how-to-start-8.mp4" type="video/mp4">
+</video>
+
 <ol>
-<li>Visit <a href="https://gestis.dguv.de/search">GESTIS</a> (in German) or <a href="https://scifinder-n.cas.org/">CAS Sci Finder</a> to look up information of hazards of the chemicals. </li>
-<li>Inside the <code>Hazard Pictograms</code> column type the GHS number respectively (e.g. '6' for GHS 6 pictogram)</li>
+<li>Go to 'Prefs' at the top of the page.</li>
+<li>Check the box in 'Lookup for safety information' and 'Save Preference'. Return to 'Reaction' at the top of the page.</li>
+<li>Click through the cells in <code>Hazard Pictograms</code> to activate the lookup function. Symbols of i and <span class="hazard"><svg alt="hazard symbol" style="margin: 0; vertical-align: middle;" width="30" height="30" viewBox="0 0 680 600" xmlns="http://www.w3.org/2000/svg"><polygon points="340,60 560,480 120,480" fill="none" stroke="#222" stroke-width="20" stroke-linejoin="round"/><rect x="327" y="200" width="26" height="150" rx="6" fill="#222"/><circle cx="340" cy="410" r="18" fill="#222"/></svg></span> appear automatically. </li>
+<li>Click <span class="hazard"><svg alt="hazard symbol" style="margin: 0; vertical-align: middle;" width="30" height="30" viewBox="0 0 680 600" xmlns="http://www.w3.org/2000/svg"><polygon points="340,60 560,480 120,480" fill="none" stroke="#222" stroke-width="20" stroke-linejoin="round"/><rect x="327" y="200" width="26" height="150" rx="6" fill="#222"/><circle cx="340" cy="410" r="18" fill="#222"/></svg></span> in each row to add the corresponding GHS labels. Manual editing (e.g. '6' for GHS 6 pictogram) is also possible.</li>
+<li>By clicking the information symbol i you may browse through the hazard and precaution statements (<em>H- &amp; P-Sätze</em>) retrieved from PubChem. In the 'Experimental' tab you can find useful information of the chemical such as the boiling and meltling point.</li>
 </ol>
-<blockquote>
-<p>Feature in development: Automatic generation of GHS pictograms with <span class="hazard"><svg style="margin: 0; vertical-align: middle;" width="30" height="30" viewBox="0 0 680 600" xmlns="http://www.w3.org/2000/svg"><polygon points="340,60 560,480 120,480" fill="none" stroke="#222" stroke-width="20" stroke-linejoin="round"/><rect x="327" y="200" width="26" height="150" rx="6" fill="#222"/><circle cx="340" cy="410" r="18" fill="#222"/></svg></span> and browsing of H- and P-Statements with <span class="icon">i</span> </p>
-</blockquote>
 <h2 id="6-change-status-of-the-entry">6. Change status of the entry</h2>
+<video loop autoplay muted width="60%">
+    <source src="../assets/videos/how-to-start-9.mp4" type="video/mp4">
+</video>
+
+<p>Change the status of your ELN entry by clicking one of the buttons or customize your own label. Click <img alt="Save Data" style="height: 1.5em; width: auto; vertical-align: top" src="../assets/img_savedata.png"> afterwards. The history of changes cannot be modified.</p>
 <blockquote>
 <p>Now your ELN is ready to use!</p>
 </blockquote>
