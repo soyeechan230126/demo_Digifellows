@@ -23,11 +23,11 @@ On the page of the ELN entry enter a title of your choice for the reaction and c
 </video>
 
 1. The `code` column itself has search function embedded. 
-    1. Search with (the first few characters of) the trivial name (e.g. with 'anthran'or in full 'anthranilic acid')
+    1. Search with (the first few characters of) the trivial name (e.g. with 'anthran' or in full 'anthranilic acid')
     2. Search with the chemical formula (e.g. with 'KI', 'HCl').
-    3. Look up the CAS number either on [GESTIS](https://gestis.dguv.de/search) (in German) or on [CAS Sci Finder](https://scifinder-n.cas.org/) (in English, login with *name@uni-jena.de* required) and paste it in the cell. Then hit 'Enter' on keyboard.
+    3. Look up the CAS number either on [GESTIS](https://gestis.dguv.de/search) (in German) or on [CAS Sci Finder](https://scifinder-n.cas.org/) (in English, login with *name@uni-jena.de* required) and paste it into the cell. Then hit 'Enter' on keyboard.
 3. In the pop-up window click the chemical of choice once to select. Usually the fields in `Name`, `mf` (molecular formula), `mw` (molecular weight) and `density` are automatically filled up. Nevertheless for some molecules, of which relatively little literature are currently available, manual input might be required.
-4. Click the <span class="icon" alt="Hexagon icon on the right"><svg style="margin: 0; background-color: b8b8b8; width: 1.5em; height: 1.5em; vertical-align: top;" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg"><polygon points="150,10 280,85 280,215 150,290 20,215 20,85" fill="none" stroke="#000" stroke-width="10" stroke-linejoin="round"/></svg></span> to add the molecules into your chemical editor. Use the Lasso Pointer Tool <img alt="Left 5th Key" style="width:1.5em; vertical-align:top;" src="../assets/img_chemicaleditor_left_5.png"> in the toolbar (lasso as shown in video or hold 'Alt' and drag for retangular selection or double click a bond or an atom of the molecule) to rearrange the components in the chemical equation. Products stand on the right of the reaction arrow with a e.g. 'P1' watermark.
+4. Click the <span class="icon" alt="Hexagon icon on the right"><svg style="margin: 0; background-color: b8b8b8; width: 1.5em; height: 1.5em; vertical-align: top;" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg"><polygon points="150,10 280,85 280,215 150,290 20,215 20,85" fill="none" stroke="#000" stroke-width="10" stroke-linejoin="round"/></svg></span> to add the molecules into your chemical editor. Use the Lasso Pointer Tool <img alt="Left 5th Key" style="width:1.5em; vertical-align:top;" src="../assets/img_chemicaleditor_left_5.png"> in the toolbar (lasso as shown in video or hold 'Alt' and drag for retangular selection or double click a bond or an atom of the molecule) to rearrange the components in the chemical equation. Products stand on the right of the reaction arrow and are labeled with a e.g. 'P1' watermark.
 5. Use the Cleanup Button <img alt="Clean Up Tool" style="height: 1.5em; width: auto; vertical-align: top" src="../assets/img_cleanup.png"> to clean up the equation. 
 
 ### Method 2: First chemical equation then data entry
@@ -44,11 +44,17 @@ On the page of the ELN entry enter a title of your choice for the reaction and c
 ## 4. Calculation of the amounts of reagents required (*Ansatztberechnung*)
 > *The following instructions are only based on OC2-Praktikum.*
 
-1. In the column `mmoles` put in the number of moles of the reagents and starting materials according to your script (*Versuchsanleitung*). Cells in `equiv` as well as `g` and `ml` should already be automatically updated. 
-> If not, check if the chemical is in solid state under standard conditions. Usually it is due to missing information of density. Manual input might be required.
+<video controls muted width="60%">
+	<source src="../assets/videos/how-to-start-5.mp4" type="video/mp4">
+</video>
+
+  1. Enter the required amount of `mmoles` or `ml` or `g` of the reactants according to your script (*Versuchsanleitung*) and press 'Enter' to confirm. Cells in `g`, `ml`, `mmoles` and `equiv` would be automatically updated. If not, usually it is due to missing information of density or the material is in solid under standard condition. Sometimes manual input might be required. Left click for the next cell for next entry.
+> Instead of left clicking the next cell, press 'Enter', then 'Tab' or 'Shift'+'Tab' to activate next cell for entry.
 
 2. Make sure your have the “Linked” checkbox on the right side checked. 
-3. Fill in the desired yielding for your product (e.g. in `g` 10 for liquid or 5 for solid compounds). The amount required according to the equation in the chemical editor would then be automatically updated.
+> The 'Theoretical yield' of produtcs on the right is calculated based on the starting materials with 1 equiv.
+3. Fill in the desired yielding of your product (e.g. in `g` 10 for liquid or 5 for solid compounds). The amount of reactants required would then be automatically updated.
+> To delete and redo entries in `g`, `ml` and `mmoles` press 'Delete' inside the cell in `equiv`.
 
 ## 5. GHS Pictogramms, H- and P-statements 
 *<font color="red">this feature in scipeaks demo ver is different, do I need to add my SciFinder token for the full version?</font>*
