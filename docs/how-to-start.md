@@ -18,7 +18,7 @@ On the page of the ELN entry enter a title of your choice for the reaction and c
 ### Method 1 (recommended): First data entry then chemical equation
 > It saves your time from drawing chemical structures.
 
-<video controls muted width="60%">
+<video controls muted width="100%">
 	<source src="../assets/videos/how-to-start-3-4.mp4" type="video/mp4">
 </video>
 
@@ -45,7 +45,7 @@ On the page of the ELN entry enter a title of your choice for the reaction and c
 ## 4. Calculation of the amounts of reagents required (*Ansatztberechnung*)
 > *The following instructions are only based on OC2-Praktikum.*
 
-<video controls muted width="60%">
+<video controls muted width="100%">
 	<source src="../assets/videos/how-to-start-5.mp4" type="video/mp4">
 </video>
 
@@ -61,7 +61,7 @@ On the page of the ELN entry enter a title of your choice for the reaction and c
 
 ## 5. GHS Pictogramms, H- and P-statements 
 
-<video controls muted width="60%">
+<video controls muted width="100%">
 	<source src="../assets/videos/how-to-start-8.mp4" type="video/mp4">
 </video>
 
@@ -72,7 +72,7 @@ On the page of the ELN entry enter a title of your choice for the reaction and c
 5. By clicking the information symbol i you may browse through the hazard and precaution statements (*H- & P-Sätze*) retrieved from PubChem. In the 'Experimental' tab you can find useful information of the chemical such as the boiling and meltling point.
 
 ## 6. Change status of the entry
-<video loop autoplay muted width="60%">
+<video loop autoplay muted width="70%">
 	<source src="../assets/videos/how-to-start-9.mp4" type="video/mp4">
 </video>
 

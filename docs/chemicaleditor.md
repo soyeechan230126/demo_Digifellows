@@ -7,7 +7,7 @@ The following instructions target users who are unfamiliar with _OpenChemLib_ ch
 > Or use the Lasso Pointer Tool <img alt="Left 5th Key" style="width:1.5em; vertical-align:top;" src="../assets/img_chemicaleditor_left_5.png"> to select the target molecule, hold 'Shift' and drag the molecule to create a copy <br>
 
 ## Video 1 (Sandmeyer Reaction): Simple molecules
-<video id="sandmeyer" controls muted width="70%" poster="../assets/videos/thumbnail_chemicaleditor_sandmeyer.png">
+<video id="sandmeyer" controls muted width="100%" poster="../assets/videos/thumbnail_chemicaleditor_sandmeyer.png">
   <source src="../assets/videos/chemicaleditor.mp4" type="video/mp4">
 </video>
 
