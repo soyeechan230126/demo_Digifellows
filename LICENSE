@@ -1,0 +1,65 @@
+This repository is dual-licensed: the documentation content and the code that
+builds it carry different licenses.
+
+================================================================================
+Documentation content — CC BY 4.0
+================================================================================
+
+All documentation content in `docs/` — Markdown text, screenshots, images, and
+video files — is licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0).
+
+    Copyright (c) 2026 Soyee Chan
+
+    You are free to share and adapt this material for any purpose, including
+    commercially, provided you give appropriate credit, link to the license,
+    and indicate if changes were made.
+
+    Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+    Human-readable summary: https://creativecommons.org/licenses/by/4.0/
+
+Suggested attribution:
+
+    "ELN Documentation" by Soyee Chan, licensed under CC BY 4.0.
+
+================================================================================
+Code — MIT
+================================================================================
+
+The site machinery — `mkdocs.yml`, `docs/javascripts/extra.js`, and any future
+build scripts or configuration — is licensed under the MIT License.
+
+    Copyright (c) 2026 Soyee Chan
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in
+    all copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+
+================================================================================
+Third-party material
+================================================================================
+
+The screenshots and screen-recording videos in `docs/assets/` depict the user
+interface of the Electronic Lab Notebook (ELN) and of the OpenChemLib chemical
+structure editor. Those interfaces, their trademarks, and their branding remain
+the property of their respective owners and are reproduced here for the purpose
+of documenting how to use the software. The CC BY 4.0 grant above covers this
+project's own text, layout, and capture of those screens — it does not and
+cannot relicense the depicted software.
+
+External databases referenced in the documentation (PubChem, GESTIS, CAS
+SciFinder) are subject to their own terms of use.
