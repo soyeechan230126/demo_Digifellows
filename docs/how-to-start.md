@@ -18,7 +18,7 @@ On the page of the ELN entry enter a title of your choice for the reaction and c
 ### Method 1 (recommended): First data entry then chemical equation
 > It saves your time from drawing chemical structures.
 
-<video controls muted width="100%">
+<video controls muted width="100%" poster="../assets/videos/thumbnail_how-to-start-3-4.png">
 	<source src="../assets/videos/how-to-start-3-4.mp4" type="video/mp4">
 </video>
 
@@ -45,7 +45,7 @@ On the page of the ELN entry enter a title of your choice for the reaction and c
 ## 4. Calculation of the amounts of reagents required (*Ansatztberechnung*)
 > *The following instructions are only based on OC2-Praktikum.*
 
-<video controls muted width="100%">
+<video controls muted width="100%" poster="../assets/videos/thumbnail_how-to-start-5.png">
 	<source src="../assets/videos/how-to-start-5.mp4" type="video/mp4">
 </video>
 
@@ -57,11 +57,13 @@ On the page of the ELN entry enter a title of your choice for the reaction and c
 > The 'Theoretical yield' of produtcs on the right is calculated based on the starting materials with 1 equiv.
 4. Fill in the desired yielding of your product (e.g. in `g` 10 for liquid or 5 for solid compounds). The amount of reactants required would then be automatically updated.
 > To delete and redo entries in `g`, `ml` and `mmoles` press 'Delete' inside the cell in `equiv`.
-5. Click <img alt="Save Data" style="height: 1.5em; width: auto; vertical-align: top" src="../assets/img_savedata.png"> to save.
+5. Determine the kind of your reagents (starting materials, reactants...)
+> For solvents and wash solvent it is adviced to set the `equiv` to 1.
+6. Click <img alt="Save Data" style="height: 1.5em; width: auto; vertical-align: top" src="../assets/img_savedata.png"> to save.
 
 ## 5. GHS Pictogramms, H- and P-statements 
 
-<video controls muted width="100%">
+<video controls muted width="100%" poster="../assets/videos/thumbnail_how-to-start-8.png">
 	<source src="../assets/videos/how-to-start-8.mp4" type="video/mp4">
 </video>
 
@@ -71,7 +73,7 @@ On the page of the ELN entry enter a title of your choice for the reaction and c
 4. Click <span class="hazard"><svg alt="hazard symbol" style="margin: 0; vertical-align: middle;" width="30" height="30" viewBox="0 0 680 600" xmlns="http://www.w3.org/2000/svg"><polygon points="340,60 560,480 120,480" fill="none" stroke="#222" stroke-width="20" stroke-linejoin="round"/><rect x="327" y="200" width="26" height="150" rx="6" fill="#222"/><circle cx="340" cy="410" r="18" fill="#222"/></svg></span> in each row to add the corresponding GHS labels. Manual editing (e.g. '6' for GHS 6 pictogram) is also possible.
 5. By clicking the information symbol i you may browse through the hazard and precaution statements (*H- & P-Sätze*) retrieved from PubChem. In the 'Experimental' tab you can find useful information of the chemical such as the boiling and meltling point.
 
-## 6. Change status of the entry
+## 7. Change status of the entry
 <video loop autoplay muted width="70%">
 	<source src="../assets/videos/how-to-start-9.mp4" type="video/mp4">
 </video>
